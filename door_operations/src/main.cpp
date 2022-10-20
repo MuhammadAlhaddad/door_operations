@@ -5,7 +5,6 @@
 #include <geometry_msgs/Twist.h>
 #include <nav_msgs/Odometry.h>
 #include <tf/transform_listener.h>
-#include <rtp_msgs/PathStamped.h>
 #include <geometry_msgs/Pose2D.h>
 #include <tf2_ros/transform_listener.h>
 #include <geometry_msgs/TransformStamped.h>
