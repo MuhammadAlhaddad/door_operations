@@ -1,0 +1,19 @@
+path_topic: '/solver_passing_node/trajectory'
+cmd_topic: 'cmd_vel'
+global_frame: 'door_frame'
+base_frame: 'base_link'
+odometry_topic: 'lol_odom'
+status_frame_topic: 'status_frame'
+ask_status_topic: 'ask_status_topic'
+
+max_v: 0.2
+min_v: 0
+acc_v: 0.01
+max_w: 0.4
+acc_w: 0.2
+
+#test_x: 4
+#test_y: 2
+
+
+

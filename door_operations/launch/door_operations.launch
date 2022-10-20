@@ -1,0 +1,6 @@
+<launch>
+    <node name="door_operations" pkg="door_operations" type="door_operations" output="screen">
+    </node>
+    <param name="door_status" value="$(arg door_status)"/>
+    <rosparam command="load" file="$(find door_operations)/config/config_node.yaml"/>
+</launch>

@@ -1,0 +1,10 @@
+<launch>
+
+<node pkg="add_frame" type="frame_tf_broadcaster"
+          name="broadcaster_frame"  output="screen"/>
+<rosparam command="load" file="$(find add_frame)/config/config.yaml"/>
+
+
+
+
+</launch>

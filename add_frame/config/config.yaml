@@ -1,0 +1,14 @@
+global_frame: 'local_map_lidar'
+base_frame: 'door_frame'
+
+## 525 right
+theta_frame: 3.2
+x_frame: -87.8
+y_frame: -10.2
+
+## 525 left
+#theta_frame: -1.57
+#x_frame: -95.2
+#y_frame: -11
+
+
